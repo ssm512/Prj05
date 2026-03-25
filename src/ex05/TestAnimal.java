@@ -48,12 +48,12 @@ public class TestAnimal {
 
 	
 	//----------------------------------------------------------------
+	// 방법2. 
 	// work 한개로 통일
 	// 부모클래스는 자식클래스를 담을 수 없다
 	// Pet pet = new Pet(); Dog dog1 = pet; // 문법오류임
 	// 자식클래스는 부모클래스를 담을 수 있다
 	// Pet pet = dog1;
-	// 방법2. 
 	private static void work(Pet pet, String name) {
 		pet.name	=	name;
 		pet.eat();
